@@ -4,7 +4,7 @@
   "description": "A repository for study purposes only.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alexandrevribeiro/webpack-learning/issues"
   },
-  "homepage": "https://github.com/alexandrevribeiro/webpack-learning#readme"
+  "homepage": "https://github.com/alexandrevribeiro/webpack-learning#readme",
+  "devDependencies": {
+    "webpack": "^3.4.1"
+  }
 }
