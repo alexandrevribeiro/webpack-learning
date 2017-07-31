@@ -31,11 +31,11 @@ const config = {
                     use: "css-loader"
                 })
             }
-        ],
-        plugins: [
-            new ExtractTextPlugin("styles.css"),
         ]
-    }
+    },
+    plugins: [
+        new ExtractTextPlugin("styles.css"),
+    ]
 };
 
 module.exports = config;
