@@ -6,13 +6,16 @@ import '../styles/image_viewer.css';
 // image.src = 'http://lorempixel.com/400/400';
 // document.body.appendChild(image);
 
-// Small
-const smallImage = document.createElement('img');
-smallImage.src = small;
-document.body.appendChild(smallImage);
+export default () => {
+    
+    // Small
+    const smallImage = document.createElement('img');
+    smallImage.src = small;
+    document.body.appendChild(smallImage);
 
-// Big
-const bigImage = document.createElement('img');
-bigImage.src = big;
-document.body.appendChild(bigImage);
+    // Big
+    const bigImage = document.createElement('img');
+    bigImage.src = big;
+    document.body.appendChild(bigImage);
 
+};
